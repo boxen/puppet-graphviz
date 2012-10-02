@@ -1,4 +1,13 @@
-# Puppet graphviz for Boxen
+# GraphViz Puppet Module for Boxen
 
-FIXME: update me bro
+Requires the following boxen modules:
 
+* `boxen`
+* `pkgconfig`
+* `swig`
+
+## Usage
+
+```puppet
+include graphviz
+```
