@@ -11,3 +11,9 @@ Requires the following boxen modules:
 ```puppet
 include graphviz
 ```
+
+## Developing
+
+Write code.
+
+Run `script/cibuild`.
