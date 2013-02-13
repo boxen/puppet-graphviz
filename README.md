@@ -1,10 +1,6 @@
-# GraphViz Puppet Module for Boxen
+# Template Puppet Module for Boxen
 
-Requires the following boxen modules:
-
-* `boxen`
-* `pkgconfig`
-* `swig`
+Install [GraphViz](http://www.graphviz.org), a graph visualization toolkit.
 
 ## Usage
 
@@ -12,8 +8,13 @@ Requires the following boxen modules:
 include graphviz
 ```
 
-## Developing
+## Required Puppet Modules
 
-Write code.
+* `boxen`
+* `pkgconfig`
+* `swig`
 
-Run `script/cibuild`.
+## Development
+
+Write code. Run `script/cibuild` to test it. Check the `script`
+directory for other useful tools.
