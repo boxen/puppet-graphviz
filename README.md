@@ -1,5 +1,7 @@
 # Template Puppet Module for Boxen
 
+[![Build Status](https://travis-ci.org/boxen/puppet-graphviz.png?branch=master)](https://travis-ci.org/boxen/puppet-graphviz)
+
 Install [GraphViz](http://www.graphviz.org), a graph visualization toolkit.
 
 ## Usage
